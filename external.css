@@ -1,0 +1,43 @@
+.main{
+    color: red;
+    font-size: medium;
+
+}
+
+.main1{
+
+    background-color: brown;
+    color: aliceblue;
+    border: 1px solid red;
+
+}
+.main2{
+    background-color: blue;
+    border: 2px solid black;
+    
+}
+  .main3{
+    background-color: aliceblue;
+    border:1px dotted black;
+  }  
+
+
+.imgopacity{
+    position: absolute;
+    opacity: 1;
+    
+
+} 
+ .imgopacity.imgopacity2 img:hover{
+    opacity: o.5;
+}
+
+.parent{
+    background-image: url(beachsea18378306.jpg);
+    height: 200px; 
+    width: 300px;
+
+}
+.imgopacity2{
+    font-size: 20px;
+}
