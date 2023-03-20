@@ -1,0 +1,60 @@
+p{
+    display: none;
+    background-color: blue;
+    padding: 20px;
+
+}
+div:hover p{
+    display: block;
+}
+
+p{
+    display: none;
+    background-color: blueviolet;
+}
+
+h1:hover p.container{
+    display: block;
+
+}
+/* 
+h1{
+    display: none;
+}
+span:hover h1.span{
+    display: block;
+    background-color: aqua;
+} */
+
+p{
+    display: none;
+}
+h1:hover p{
+    display: block;
+    background-color: blue;
+}
+
+
+/* focus */
+input[type="text"]:focus{
+    background-color: blue;
+}
+
+input[type="number"]:focus{
+    background-color: aqua;
+}
+
+.a link{
+    color: blue;
+}
+.a active{
+    color: blueviolet;
+}
+a :visited{
+    color: aqua;
+}
+
+
+
+
+

@@ -1,0 +1,38 @@
+.container{
+    text-align: center;
+    margin: auto;
+    border: 1px solid red;
+    height: 150px;
+    width: 200px;
+}
+.container{
+    background-color: aqua;
+}
+
+.form_container{
+    color: blanchedalmond;
+}
+
+.h1_container{
+color: blueviolet;
+
+}
+.p_container1{
+    background-color: bisque;
+
+}
+.p_container2{
+    background-color: rgb(128, 165, 42);
+
+}
+.container .form_container h1.h1_container p.p_container1.p_container2{
+     font-size: 40px;
+}
+
+.example1{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 44px #45cb2d;
+    width: 200px;
+    
+}

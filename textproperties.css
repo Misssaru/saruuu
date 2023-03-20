@@ -1,0 +1,31 @@
+.word{
+    word-wrap: break-word;
+    border: 2px dotted red;
+    width: 300px;
+}
+
+.word1{
+    word-break: break-all;         
+    border: 2px solid black;
+    width: 200px;
+}
+
+.word2{
+    word-break: break-word;
+
+     border: 2px solid red;
+     width: 300px;
+}
+.word3{
+word-break: keep-all;
+border: 2px solid rgb(240, 240, 11);
+width: 200px;
+}
+
+.multicolumn{
+    column-count: 3 ;
+    column-rule:solid ;
+    column-gap: 30px;
+    column-width: 4opx;
+    column-rule-color: brown;
+}

@@ -1,0 +1,28 @@
+P{
+   color: rgb(174, 147, 25);
+   height: 30px; 
+   border: 1px dotted red;
+}
+
+#class{
+    color: blue;
+    background-color: brown;
+}
+
+.main{
+    color: aqua;
+}
+
+*center{
+    color: brown;
+    text-align: center;
+}
+
+h1,
+h2,
+h3{
+   text-align: center; 
+   color: rgb(226, 131, 43);
+}
+
+

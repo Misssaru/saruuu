@@ -1,0 +1,64 @@
+.annimation{
+    background-color: brown;
+    font-size: 30px;
+    height: 200px;
+    width: 300px;
+    animation-name: myannimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+
+  
+ @keyframes myannimation{
+
+ /* from{
+background-color: blue;
+font-size: 30px;
+}
+
+to{
+    background-color: blueviolet;
+    font-size: 40px; 
+}  */
+    
+
+
+0% {
+ background-color: rgb(226, 223, 43); 
+
+}
+
+25%{
+    background-color: bisque;
+
+}
+50%{
+  background-color: rgb(8, 196, 43);  
+  font-size: 50ox;
+}
+100%{
+    background-color: black;
+    
+}
+
+ }
+
+
+
+
+
+.annimationT-T{
+
+    background-color: aqua;
+    height: 100px;
+    width: 100px ;
+    transition: width 1s, height 1s, transform 1s;
+}
+.annimationT-T:hover{
+    background-color: rgb(154, 228, 17);
+    height: 300px;
+    width: 300px;
+    transform: rotate(180deg);
+}

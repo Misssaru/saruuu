@@ -1,0 +1,16 @@
+div p{
+background-color: rgb(255, 195, 127);
+
+}
+
+div > h1{
+  background-color: blueviolet;   
+}
+
+div + p{
+    background-color: brown;
+}
+
+div ~ p{
+    background-color: rgb(234, 255, 0);
+}
